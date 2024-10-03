@@ -1,0 +1,12 @@
+﻿@model string
+
+<h2>Check Cookie</h2>
+
+@if (!string.IsNullOrEmpty(Model))
+{
+    <p>Cookie value: @Model</p>
+}
+else
+{
+    <p>No cookie found.</p>
+}
